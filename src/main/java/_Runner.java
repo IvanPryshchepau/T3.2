@@ -19,7 +19,7 @@ public class _Runner {
 
             result = ((b + sqrt(pow(b, 2) + 4 * a * c)) / (2 * a)) - (pow(a, 3) * c) + (pow(b, -2));
         } catch (NumberFormatException e) {
-            System.out.println("Write 3 numbers");
+            System.out.println("Write 3 numbers (double)");
             return 0;
         }
         return result;
